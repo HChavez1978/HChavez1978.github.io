@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* Degradado para el encabezado superior */
+header {
+    background: rgb(176,45,96);
+    background: linear-gradient(45deg, rgba(176,45,96,1) 0%, rgba(129,60,102,1) 2%, rgba(117,64,103,1) 5%, rgba(63,28,94,1) 17%, rgba(31,18,79,1) 35%, rgba(22,10,55,1) 52%, rgba(19,7,51,1) 100%);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+/* Degradado para el Menu */
+nav ul {
+    background: rgb(176,45,96);
+    background: linear-gradient(45deg, rgba(176,45,96,1) 0%, rgba(129,60,102,1) 2%, rgba(117,64,103,1) 5%, rgba(63,28,94,1) 17%, rgba(31,18,79,1) 35%, rgba(22,10,55,1) 52%, rgba(19,7,51,1) 100%);
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el cursor */
+nav ul li a:hover {
+    color: #b74db3; /* Cambia a un rosa brillante */
+    text-shadow: 
+        0 0 15px rgba(255, 251, 253, 1), /* Brillo principal */
+        0 0 30px rgba(255, 251, 253, 0.8), /* Brillo externo */
+        0 0 45px rgba(255, 251, 253, 0.6); /* Brillo adicional */
+}
+
+main {
+    padding: 1rem 2rem;
+}
+
+section {
+    margin: 2rem 0;
+}
+/* Línea después de título de página */
+section h2 {
+    border-bottom: 2px solid #92349f;
+    padding-bottom: 0.5rem;
+}
+/* Aspecto de foto */
+img {
+    display: block;
+    max-width: 200px;
+    margin: 1rem auto;
+    border-radius: 50%;
+}
+/* Degradado para el pie de página*/
+footer {
+    background: rgb(176,45,96);
+    background: linear-gradient(45deg, rgba(176,45,96,1) 0%, rgba(129,60,102,1) 2%, rgba(117,64,103,1) 5%, rgba(63,28,94,1) 17%, rgba(31,18,79,1) 35%, rgba(22,10,55,1) 52%, rgba(19,7,51,1) 100%);
+    color: #ffffff;
+    text-align: center;
+    padding: 0.2rem 0;
+    margin-top: 3rem;
+}
+
+/* Diseño de tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    vertical-align: top; /* Alinea el contenido de las celdas a la parte superior */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+td:first-child {
+    width: 10px; /* Ajusta el ancho de la primera columna */
+    padding-right:5px; /* Agrega más espacio entre las columnas */
+}
+
+/* Diseño de tabla para tesis dirigidas */
+.tesis-dirigidas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tesis-dirigidas th, .tesis-dirigidas td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+.tesis-dirigidas th {
+    background-color: #f2f2f2;
+    text-align: center; /* Centra los encabezados */
+}
+
+.tesis-dirigidas td {
+    background-color: #f9f9f9;
+    text-align: left; 
+}
+
+.tesis-dirigidas td:nth-last-child(2) {
+    text-align: center; /* Centra el texto de la penúltima columna */
+}
+
+.tesis-dirigidas td:last-child {
+    text-align: center; /* Centra el texto de la última columna */
+}
+
+.tesis-dirigidas td:first-child {
+    width: 100px; /* Ajusta el ancho de la columna de tipo (Dirección/Co-Dirección) */
+}
+
+/* Diseño de tabla v2 */
+.table-v2 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-v2 th, .table-v2 td {
+    padding: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.table-v2 th {
+    background-color: #f2f2f2;
+    text-align: center; /* Centra los encabezados */
+}
+
+.table-v2 td {
+    background-color: #f9f9f9;
+}
+
+.table-v2 td:first-child {
+    width: 80px;
+}
+
+
+
+
+
